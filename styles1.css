@@ -1,0 +1,100 @@
+/* Global Styles */
+body {
+    font-family: Verdana, sans-serif; /* Police moderne et professionnelle */
+    background-color: #f5f5f5; /* Fond gris clair pour un design doux */
+    color: #003366; /* Texte en bleu foncé pour cohérence */
+    margin: 0;
+}
+
+/* Header */
+header {
+    background-color: #003366; /* Bleu foncé */
+    color: white; /* Texte en blanc pour le contraste */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 120px; /* Taille du logo */
+    height: auto;
+}
+
+.logo p {
+    font-size: 24px;
+    font-weight: bold;
+    color: white; /* Texte blanc pour le header */
+}
+
+/* Section de contact */
+#contact-info {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #ffffff; /* Fond blanc pour contraster */
+    border-radius: 8px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile pour donner du relief */
+    width: 80%;
+    max-width: 600px;
+}
+
+#contact-info h1 {
+    color: #003366; /* Bleu foncé pour le titre */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact-info p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #003366; /* Texte en bleu foncé */
+}
+
+#contact-info p strong {
+    color: #003366; /* Bleu foncé pour les titres des contacts */
+    font-weight: bold;
+}
+
+#contact-info a {
+    color: #003366; /* Bleu foncé pour les liens */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Image dans la section contact */
+#contact-info img {
+    width: 100%;
+    max-width: 300px; /* Limite la largeur maximale */
+    border-radius: 8px; /* Coins arrondis pour l'image */
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre subtile autour de l'image */
+}
+
+/* Footer */
+footer {
+    background-color: #003366; /* Fond bleu foncé */
+    color: white; /* Texte en blanc pour le contraste */
+    padding: 10px 0; /* Espacement interne */
+    text-align: center;
+    font-family: Verdana, sans-serif; /* Utilisation de Verdana */
+    border-radius: 0 0 8px 8px;
+}
+
+footer a {
+    color: white; /* Blanc pour les liens dans le footer */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #contact-info {
+        width: 90%; /* Réduction de la largeur sur petits écrans */
+    }
+}

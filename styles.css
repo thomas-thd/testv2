@@ -1,0 +1,269 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, sans-serif; /* Changement de la police par Verdana */
+}
+
+/* Body */
+body {
+    background-color:#f5f5f500;
+}
+
+/* Header */
+header {
+    background-color: #003366; /* Bleu foncé */
+    color: white;
+    padding: 4px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo img {
+    width: 15%;
+    height: auto;
+}
+
+.logo .brand {
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+/* Main Content Layout */
+#box0 {
+    background-color: #f9f9f9; /* Fond gris clair pour un contraste doux */
+    border: 1px solid #e0e0e0; /* Bordure subtile */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px 2%; /* Espacement interne */
+    width: 98%; /* Prend 98% de la largeur */
+    margin: 20px auto; /* Centrer le div */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    font-family: Verdana, sans-serif; /* Police moderne et lisible */
+    line-height: 1.6; /* Hauteur de ligne aérée */
+    text-align: left; /* Alignement à gauche */
+}
+
+/* Titre principal */
+#box0 h1 {
+    font-size: 24px; /* Taille légèrement plus grande */
+    font-weight: bold;
+    color: #003366; /* Bleu foncé pour le titre */
+    margin-bottom: 15px; /* Espacement sous le titre */
+    text-align: center; /* Centrer le titre */
+}
+
+/* Texte général */
+#box0 p {
+    font-size: 16px;
+    color: #555; /* Gris pour le texte descriptif */
+    margin-bottom: 15px; /* Espacement entre paragraphes */
+}
+
+/* Liste */
+#box0 ul {
+    margin-left: 20px; /* Décalage pour différencier la liste */
+    margin-bottom: 15px; /* Espacement sous la liste */
+}
+
+#box0 ul li {
+    color: #333; /* Couleur sombre pour le texte de la liste */
+    font-size: 16px;
+    margin-bottom: 10px; /* Espacement entre éléments */
+}
+
+/* Points forts */
+#box0 strong {
+    color: #003366; /* Bleu foncé pour mettre en avant les mots importants */
+}
+
+
+#box0 h1 {
+    font-size: 24px;
+    color: #333; /* Texte en gris foncé */
+}
+
+/* Container for the boxes */
+#container {
+    display: flex;
+    justify-content: space-between; /* Align items horizontally with space between them */
+    gap: 10px; /* Espace entre les boîtes */
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 10px;
+    text-align: center;
+}
+
+/* Style for the boxes */
+#box1, #box2, #box3 {
+    background-color: #ffffff; /* Blanc classique */
+    border: 1px solid #e0e0e0; /* Gris clair pour la bordure */
+    width: 36%; /* Chaque boîte prend 33% de la largeur */
+    text-align: center;
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Couleurs différentes pour chaque boîte */
+#box1 {
+    background-color:#003366 ; /* Gris très clair */
+}
+#box1 p {
+    color: white;
+}
+
+#box1 p a {
+    color: white; /* Lien en blanc */
+    text-decoration: none; /* Supprimer le soulignement si vous le souhaitez */
+}
+
+#box1 p a:hover,
+#box1 p a:focus,
+#box1 p a:visited,
+#box1 p a:active {
+    color: white; /* Assurer que le lien reste en blanc dans tous les états */
+}
+
+
+#box2 {
+    background-color: #ffffff; /* Fond blanc pour contraster */
+    border: 1px solid #e0e0e0; /* Bordure grise claire */
+    border-radius: 8px; /* Coins arrondis */
+    padding: 20px; /* Espace interne */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    text-align: left; /* Alignement à gauche pour un texte structuré */
+    font-size: 16px; /* Taille de texte */
+    line-height: 1.6; /* Hauteur de ligne pour aérer le texte */
+}
+
+/* Titre principal */
+#box2 p:first-child {
+    font-size: 20px; /* Taille légèrement plus grande */
+    font-weight: bold;
+    color: #003366; /* Bleu foncé pour le titre */
+    margin-bottom: 10px; /* Espacement sous le titre */
+    text-align: center; /* Centrer le titre */
+}
+
+/* Texte d'introduction */
+#box2 p:nth-child(2) {
+    margin-bottom: 15px; /* Espacement sous l'intro */
+    color: #555; /* Gris pour le texte descriptif */
+}
+
+/* Liste */
+#box2 ul {
+    margin-left: 20px; /* Décalage par rapport au bord */
+    margin-bottom: 15px; /* Espacement sous la liste */
+}
+
+#box2 ul li {
+    margin-bottom: 10px; /* Espacement entre les éléments de la liste */
+    color: #333; /* Couleur sombre pour la liste */
+}
+
+/* Points forts */
+#box2 ul li strong {
+    color: #003366; /* Bleu pour les mots clés */
+}
+
+
+
+
+#box3 {
+    background-color:#003366; /* Gris très pâle */
+    
+}
+#box3 p {
+    color: white;
+}
+
+#box3 p a {
+    color: white; /* Lien en blanc */
+    text-decoration: none; /* Supprimer le soulignement si vous le souhaitez */
+}
+
+#box3 p a:hover,
+#box3 p a:focus,
+#box3 p a:visited,
+#box3 p a:active {
+    color: white; /* Assurer que le lien reste en blanc dans tous les états */
+}
+
+
+/* Effet au survol des boîtes */
+#box1:hover, #box2:hover, #box3:hover {
+    transform: translateY(-10px); /* Légère remontée de la boîte */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Ombre autour de la boîte */
+}
+
+/* Footer */
+footer {
+    background-color: #333; /* Fond sombre */
+    color: white; /* Texte en blanc */
+    padding: 10px 0; /* Espacement interne */
+    text-align: center;
+    font-family: Verdana, sans-serif; /* Utilisation de Verdana */
+    border-radius: 2px;
+}
+.footer-links a {
+    color: #db0211; /* Couleur des liens */
+    text-decoration: none; /* Suppression de la sous-ligne */
+    font-weight: bold; /* Gras pour les liens */
+    margin: 0 10px; /* Espace entre les liens */
+}
+/* Style général pour le lien des mentions légales */
+.mentions-legales {
+    text-decoration: none; /* Supprime le soulignement */
+    color: #f1f3f4; /* Couleur principale */
+    font-weight: bold; /* Met en gras */
+    font-size: 14px; /* Taille de police */
+    transition: color 0.3s ease; /* Animation pour l'effet hover */
+}
+
+/* Style au survol */
+.mentions-legales:hover {
+    color: #e74c3c; /* Couleur au survol (rouge par exemple) */
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}
+
+img {
+    width: 100%; /* Ajuster la largeur de l'image */
+    height:90%; /* Maintenir la proportion de l'image */
+    border-radius: 2px; /* Arrondir les coins de l'image */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Optionnel : ajouter une ombre subtile autour de l'image */
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    /* Ajustement du texte du box0 */
+    #box0 h1 {
+        font-size: 20px; /* Réduire la taille du texte */
+    }
+
+    /* Mise en colonne pour les boîtes sur petits écrans */
+    #container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #box1, #box2, #box3 {
+        width: 100%; /* Chaque boîte prend 100% de la largeur disponible sur petit écran */
+        margin-bottom: 20px;
+    }
+}
